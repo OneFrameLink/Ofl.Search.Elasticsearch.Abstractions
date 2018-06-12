@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0717CE8D-157
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FA0E9AEF-986C-478A-97D6-52AA95DB107D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Search.Elasticsearch.Abstractions.Tests", "test\Ofl.Search.Elasticsearch.Abstractions.Tests\Ofl.Search.Elasticsearch.Abstractions.Tests.csproj", "{9233E104-1FE3-40D5-BA43-8AB51BFCC95B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +33,17 @@ Global
 		{2681E45C-E5AD-4DDF-947F-078B0BB67C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2681E45C-E5AD-4DDF-947F-078B0BB67C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2681E45C-E5AD-4DDF-947F-078B0BB67C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9233E104-1FE3-40D5-BA43-8AB51BFCC95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9233E104-1FE3-40D5-BA43-8AB51BFCC95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9233E104-1FE3-40D5-BA43-8AB51BFCC95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9233E104-1FE3-40D5-BA43-8AB51BFCC95B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2681E45C-E5AD-4DDF-947F-078B0BB67C51} = {0717CE8D-1577-4E81-A815-9B918909790D}
+		{9233E104-1FE3-40D5-BA43-8AB51BFCC95B} = {FA0E9AEF-986C-478A-97D6-52AA95DB107D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1621F29F-4BD9-47A8-B420-59621A97EFD7}
