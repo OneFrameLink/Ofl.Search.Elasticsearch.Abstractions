@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Search.Elasticsearch.Abstractions", "src\Ofl.Search.Elasticsearch.Abstractions\Ofl.Search.Elasticsearch.Abstractions.csproj", "{2681E45C-E5AD-4DDF-947F-078B0BB67C51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.Elasticsearch.Abstractions", "src\Ofl.Search.Elasticsearch.Abstractions\Ofl.Search.Elasticsearch.Abstractions.csproj", "{2681E45C-E5AD-4DDF-947F-078B0BB67C51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{831C35DC-A6F5-4BE7-9FD8-1125EDE3D880}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Search.Elasticsearch.Abstractions.sln.DotSettings = Ofl.Search.Elasticsearch.Abstractions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0717CE8D-1577-4E81-A815-9B918909790D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FA0E9AEF-986C-478A-97D6-52AA95DB107D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2681E45C-E5AD-4DDF-947F-078B0BB67C51} = {0717CE8D-1577-4E81-A815-9B918909790D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1621F29F-4BD9-47A8-B420-59621A97EFD7}
 	EndGlobalSection
 EndGlobal
