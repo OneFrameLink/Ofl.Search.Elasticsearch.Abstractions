@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Ofl.Search.Elasticsearch</RootNamespace>
     <Description>Abstractions used by the Ofl.Search.Elasticsearch project.</Description>
     <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Search.Elasticsearch.Abstractions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Search.Elasticsearch.Abstractions.git</RepositoryUrl>
     <PackageTags>search elasticsearch</PackageTags>
-	<Version>2.0.0</Version>
+	<Version>3.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NEST" Version="5.6.0" />
+    <PackageReference Include="NEST" Version="6.4.1" />
   </ItemGroup>
 
 </Project>
