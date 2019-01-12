@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="NEST" Version="6.4.1" />
+    <PackageReference Include="Ofl.Search.Abstractions" Version="5.0.18" />
   </ItemGroup>
 
 </Project>
